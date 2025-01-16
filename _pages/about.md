@@ -15,7 +15,7 @@ This is the front page of a website that is powered by the [Academic Pages templ
 {% raw %}
 <div class="video-wrapper">
     <div class="video-left">
-        <h4> LOW COST AI ASSISTED CERVICAL CANCER SCREENING FOR LBC IN DEVELOPING COUNTRIES</h4>
+        <h3> Low Cost AI Assisted Cervical Cancer Screening For LBC In Developing Countries</h3>
         <iframe width="560" height="315" 
                 src="https://youtube.com/embed/pmVvwGuVn0w" 
                 frameborder="0" 
