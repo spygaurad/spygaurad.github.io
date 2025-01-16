@@ -7,7 +7,7 @@ excerpt: ''
 date: 2022-07-11
 venue: 'Nepalese Linguistics'
 # slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
-paperurl: 'http://academicpages.github.io/files/corpus_clean_2022.pdf'
+paperurl: 'http://spygaurad.github.io/files/corpus_clean_2022.pdf'
 citation: 'Awale, S., Prasai, S., Rijal, B., & Basnet, S. B. (2022). Preprocessing of Nepali News Corpus for Downstream Tasks. Nepalese Linguistics, 1-6.'
 ---
 

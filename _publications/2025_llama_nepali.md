@@ -7,7 +7,7 @@ excerpt : ''
 date: 2025-1-19
 venue: 'Submitted and accepted as workshop paper in Chipsal, COLING 2025'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/llama_nepali_2025.pdf'
+paperurl: 'http://spygaurad.github.io/files/llama_nepali_2025.pdf'
 citation: 'Duwal, S., Prasai, S., & Manandhar, S. (2024). Domain-adaptative Continual Learning for Low-resource Tasks: Evaluation on Nepali. arXiv preprint arXiv:2412.13860.'
 ---
 

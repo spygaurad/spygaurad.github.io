@@ -15,16 +15,16 @@ This is the front page of a website that is powered by the [Academic Pages templ
 {% raw %}
 <div class="video-wrapper">
     <div class="video-left">
-        <h3> Hello Video 1</h3>
+        <h4> LOW COST AI ASSISTED CERVICAL CANCER SCREENING FOR LBC IN DEVELOPING COUNTRIES</h4>
         <iframe width="560" height="315" 
-                src="https://www.youtube.com/embed/tsm9s5sQJl8" 
+                src="https://youtu.be/embed/pmVvwGuVn0w" 
                 frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                 allowfullscreen>
         </iframe>
     </div>
     <div class="video-right">
-        <h3> Hello Video 2</h3>
+        <h3>Assembly AI Winter Hackathon 2022</h3>
         <iframe width="560" height="315" 
               src="https://www.youtube.com/embed/tsm9s5sQJl8" 
               frameborder="0" 
