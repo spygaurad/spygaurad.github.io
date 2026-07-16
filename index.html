@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Suraj Prasai — Software / AI Engineer</title>
+<meta name="description" content="Suraj Prasai — Software &amp; AI Engineer building agentic systems, ML pipelines, and geospatial platforms in Python.">
+<link rel="icon" href="images/favicon.ico">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">suraj<span>.</span>prasai</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">menu</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#experience">experience</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#publications">publications</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap hero-row">
+    <img class="hero-photo" src="images/profile.png" alt="Suraj Prasai">
+    <div class="hero-main">
+      <h1>Suraj Prasai <span class="hero-role">/ Software &amp; AI Engineer<span class="cursor"></span></span></h1>
+      <p class="lede">Production ML systems and the software around them &mdash; RAG pipelines, agentic LLM tools, geospatial platforms. Python-first. Currently building ML systems at Wake Forest University.</p>
+      <p class="hero-meta">Winston-Salem, NC &nbsp;&middot;&nbsp; suraj.prasai97@gmail.com &nbsp;&middot;&nbsp; +1 743-240-7785</p>
+    </div>
+    <div class="btn-col">
+      <a class="btn btn-primary" href="files/Resume_Suraj_2025.pdf" target="_blank" rel="noopener">Resume ↓</a>
+      <a class="btn btn-ghost" href="https://github.com/spygaurad" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn btn-ghost" href="https://www.linkedin.com/in/suraj-prasai-a77092145/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="marquee">
+      <div class="marquee-track" id="skillMarquee">
+        <span class="pill">Python</span><span class="pill">LangGraph</span><span class="pill">RAG</span><span class="pill">PyTorch</span><span class="pill">FastAPI</span><span class="pill">React</span><span class="pill">Docker</span><span class="pill">Kubernetes</span><span class="pill">Kafka</span><span class="pill">LoRA fine-tuning</span><span class="pill">Whisper</span><span class="pill">PostGIS</span><span class="pill">AWS</span><span class="pill">GCP</span><span class="pill">LLaMA</span><span class="pill">HuggingFace</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="projects">
+  <div class="wrap">
+    <p class="section-label">featured projects</p>
+    <h2 class="section-title">What I've built</h2>
+
+    <div class="featured-grid">
+      <div class="card card-featured">
+        <div class="card-top">
+          <p class="card-title">GeoTALOS</p>
+          <p class="card-tag">Geospatial AI Platform</p>
+        </div>
+        <p class="card-desc">AOI-driven platform for discovering imagery, running detection/segmentation models, and automating monitoring workflows through an interactive map and visual pipeline builder. Owned the FastAPI + PostGIS/pgSTAC backend; cut peak segmentation memory 8x (66.5GB → 8.4GB) via tiled raster streaming.</p>
+        <div class="tag-row">
+          <span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">PostgreSQL/PostGIS</span><span class="tag">React</span><span class="tag">Docker Compose</span>
+        </div>
+        <div class="card-links">
+          <a href="https://github.com/spygaurad/GeoTalosProd" target="_blank" rel="noopener">Backend &rarr;</a>
+          <a href="https://github.com/spygaurad/GeoTalosUI" target="_blank" rel="noopener">Frontend &rarr;</a>
+        </div>
+        <div class="card-video-row">
+          <div class="card-video">
+            <p class="card-video-label">GeoTALOS demo</p>
+            <div class="video-frame">
+              <iframe src="https://www.youtube.com/embed/KoLlAJi2LYg" title="GeoTALOS demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>
+          <div class="card-video">
+            <p class="card-video-label">AwakeForest (prototype)</p>
+            <div class="video-frame">
+              <iframe src="https://www.youtube.com/embed/Z0EZj1PPDv4" title="AwakeForest demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-featured">
+        <div class="card-top">
+          <p class="card-title">KnowThyself</p>
+          <p class="card-tag">Agentic LLM Interpretability &middot; AAAI 2026 Demo</p>
+        </div>
+        <p class="card-desc">LangGraph orchestrator-router agent that consolidates 5+ fragmented LLM interpretability tools into a single chat interface, routing natural-language queries to specialized analysis modules. Upload a model, interrogate its behavior conversationally.</p>
+        <div class="tag-row">
+          <span class="tag">Python</span><span class="tag">LangGraph</span><span class="tag">LLaMA 70B</span><span class="tag">Next.js</span>
+        </div>
+        <div class="card-links">
+          <a href="https://github.com/spygaurad/KnowThyself" target="_blank" rel="noopener">Backend &rarr;</a>
+          <a href="https://github.com/spygaurad/know-thyself-ui" target="_blank" rel="noopener">Frontend &rarr;</a>
+          <a href="https://arxiv.org/abs/2511.03878" target="_blank" rel="noopener">Paper &rarr;</a>
+        </div>
+        <div class="card-video-row">
+          <div class="card-video card-video-single">
+            <p class="card-video-label">KnowThyself demo</p>
+            <div class="video-frame">
+              <iframe src="https://www.youtube.com/embed/Y2DAaMU2Ubs" title="KnowThyself demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p class="section-label more-label">more projects</p>
+    <div class="project-grid-compact">
+      <div class="card card-compact">
+        <p class="card-title">WakeWander</p>
+        <p class="card-tag">Personal &middot; Agentic Planning</p>
+        <p class="card-desc">8-node LangGraph plan-and-execute travel planner: human-in-the-loop interrupts, budget tracking, SSE progress streaming.</p>
+        <div class="tag-row">
+          <span class="tag">Python</span><span class="tag">LangGraph</span><span class="tag">Gemini 2.5</span>
+        </div>
+        <div class="card-links">
+          <a href="https://github.com/spygaurad/WakeWander" target="_blank" rel="noopener">GitHub &rarr;</a>
+        </div>
+      </div>
+
+      <div class="card card-compact">
+        <p class="card-title">Cloud Speech Memo Analyzer</p>
+        <p class="card-tag">Personal &middot; Production-style Service</p>
+        <p class="card-desc">Voice memo analyzer on Azure AI: transcribe, analyze, TTS-summarize, fully instrumented with OpenTelemetry + App Insights.</p>
+        <div class="tag-row">
+          <span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">Azure AI</span>
+        </div>
+        <div class="card-links">
+          <a href="https://github.com/spygaurad/CloudSpeechProject" target="_blank" rel="noopener">GitHub &rarr;</a>
+        </div>
+      </div>
+
+      <div class="card card-compact">
+        <p class="card-title">Telephony RAG Assistant</p>
+        <p class="card-tag">Production &middot; Nepal Telecom</p>
+        <p class="card-desc">National-scale RAG chatbot (hybrid retrieval) plus real-time ASR → LLM → TTS telephony pipeline on Kafka. Proposal secured £150K GSMA funding.</p>
+        <div class="tag-row">
+          <span class="tag">Python</span><span class="tag">LangChain</span><span class="tag">Kafka</span>
+        </div>
+      </div>
+
+      <div class="card card-compact">
+        <p class="card-title">Low-Resource ASR &amp; LLM Fine-tuning</p>
+        <p class="card-tag">Speech &amp; NLP &middot; COLING 2025</p>
+        <p class="card-desc">LoRA fine-tuning for Whisper (WER 22→12.8) and Wav2Vec2 + n-gram/Transformer LM fusion (WER 54→18.3).</p>
+        <div class="tag-row">
+          <span class="tag">PyTorch</span><span class="tag">HuggingFace</span><span class="tag">LoRA</span>
+        </div>
+        <div class="card-links">
+          <a href="https://aclanthology.org/2025.chipsal-1.14/" target="_blank" rel="noopener">Paper &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap">
+    <p class="section-label">experience</p>
+    <h2 class="section-title">Where I've worked</h2>
+
+    <div class="timeline">
+      <div class="job">
+        <div class="job-head">
+          <div><span class="job-role">Graduate Research Assistant</span> &middot; <span class="job-org">Wake Forest University</span></div>
+          <div class="job-time">Aug 2025 — Present</div>
+        </div>
+        <div class="job-loc">Winston-Salem, NC</div>
+        <ul>
+          <li>Designed and engineered <strong>GeoTALOS</strong>, an AOI-driven geospatial AI platform (evolved from an earlier prototype, <strong>AwakeForest</strong>, accepted as an <strong>IJCAI-ECAI 2026 demo paper</strong>) replacing ad hoc, duplicated-TIFF workflows with one centralized system; owned the backend and spatial schema, cutting peak memory usage up to <strong>8x</strong> (66.5GB → 8.4GB on SAM3 segmentation) and data-load latency to near-zero via tiled raster streaming — <strong>submitted to ACM SIGSPATIAL 2026</strong>.</li>
+          <li>Built a no-code visual workflow builder so non-programmers can run and automate ML inference pipelines (detection, segmentation, temporal NDVI monitoring) from a map UI; independently built the full <strong>React</strong> frontend.</li>
+          <li>Built <strong>KnowThyself</strong> (<strong>AAAI 2026 Demo Track</strong>), an agentic LLM interpretability assistant with an orchestrator-router pipeline (<strong>LangGraph + LLaMA 70B</strong>) that routes natural-language queries to specialized analysis modules, consolidating 5+ fragmented interpretability tools into one chat interface.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-head">
+          <div><span class="job-role">AI Engineer</span> &middot; <span class="job-org">Wiseyak Solutions</span></div>
+          <div class="job-time">Aug 2020 — May 2025</div>
+        </div>
+        <div class="job-loc">Kathmandu, Nepal</div>
+        <ul>
+          <li>Architected and shipped to production a <strong>RAG chatbot</strong> (hybrid dense + sparse retrieval, LangChain) for <strong>Nepal Telecom</strong> serving real-time customer queries at national scale; co-built a real-time telephony AI pipeline (ASR → LLM → TTS) on <strong>Kafka</strong> producer-consumer streaming and authored the technical proposal that secured <strong>£150K in GSMA</strong> international program funding.</li>
+          <li>Curated and augmented ASR datasets (300 hrs supervised, ~2,000 hrs unsupervised); designed and ran <strong>LoRA</strong> fine-tuning pipelines for <strong>Whisper</strong>, improving <strong>WER from 22 to 12.8</strong> on Nepali transcription.</li>
+          <li>Built a Nepali instruction-tuning corpus via translation models; fine-tuned <strong>LoRA</strong>-based LLaMA3 8B and analyzed cross-lingual representations in low-resource settings — published at <strong>COLING 2025 (CHiPSAL Workshop)</strong>.</li>
+          <li>Interviewed and grew the ML engineering team from scratch to <strong>10 engineers</strong>; stood up on-prem <strong>GPU infrastructure (3x RTX 4090)</strong> and LLM serving pipelines (Docker, quantization) for enterprise clients; led and mentored the team throughout.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-head">
+          <div><span class="job-role">ML Research Intern</span> &middot; <span class="job-org">Integrated ICT Pvt. Ltd.</span></div>
+          <div class="job-time">Jul 2019 — Mar 2020</div>
+        </div>
+        <div class="job-loc">Kathmandu, Nepal</div>
+        <ul>
+          <li>Built an end-to-end <strong>Nepali ASR pipeline</strong>: cleaned a Devanagari speech corpus (font normalization, non-UTF filtering, spelling correction), fine-tuned Wav2Vec2, and fused an n-gram + Transformer LM, improving <strong>WER from 54 to 18.3</strong>; corpus work published in <em>Nepalese Linguistics</em> (2022).</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <p class="section-label">skills</p>
+    <h2 class="section-title">Toolbox</h2>
+
+    <div class="skills-compact">
+      <div class="skill-row"><h3>Languages</h3><div class="tag-row"><span class="tag">Python (primary)</span><span class="tag">JavaScript / React</span><span class="tag">DSA</span></div></div>
+      <div class="skill-row"><h3>Systems &amp; Cloud</h3><div class="tag-row"><span class="tag">Docker</span><span class="tag">Kubernetes</span><span class="tag">AWS</span><span class="tag">GCP</span><span class="tag">Kafka</span><span class="tag">Celery/Redis</span><span class="tag">REST APIs</span><span class="tag">LLM serving &amp; quantization</span></div></div>
+      <div class="skill-row"><h3>Agentic &amp; LLM</h3><div class="tag-row"><span class="tag">LangGraph</span><span class="tag">LangChain</span><span class="tag">RAG (hybrid)</span><span class="tag">LLaMA</span><span class="tag">Tool-use Agents</span></div></div>
+      <div class="skill-row"><h3>ML &amp; DL</h3><div class="tag-row"><span class="tag">PyTorch</span><span class="tag">HuggingFace</span><span class="tag">LoRA fine-tuning</span><span class="tag">Whisper</span><span class="tag">Wav2Vec2</span><span class="tag">Scikit-learn</span></div></div>
+      <div class="skill-row"><h3>Geospatial &amp; Data</h3><div class="tag-row"><span class="tag">FastAPI</span><span class="tag">PostgreSQL/PostGIS</span><span class="tag">pgSTAC</span><span class="tag">TiTiler</span><span class="tag">Pandas</span><span class="tag">NumPy</span></div></div>
+      <div class="skill-row"><h3>Leadership</h3><div class="tag-row"><span class="tag">Co-founder, Return to Heritage NGO</span><span class="tag">Mentored 10-engineer team</span><span class="tag">Guest lecturer, Kathmandu University</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="publications">
+  <div class="wrap">
+    <p class="section-label">publications</p>
+    <h2 class="section-title">Research</h2>
+
+    <div class="pub-list">
+      <div class="pub">
+        <a class="pub-title" href="https://github.com/spygaurad/GeoTalosProd" target="_blank" rel="noopener">GeoTALOS: A Geoscience Platform for Automated Landscape Observation and Spatial Analysis</a>
+        <div class="pub-meta">Prasai, S., et al. (2026) <span class="badge badge-submitted">Submitted &middot; ACM SIGSPATIAL 2026</span></div>
+      </div>
+      <div class="pub">
+        <a class="pub-title" href="https://github.com/spygaurad/AwakeForest" target="_blank" rel="noopener">AwakeForest: An Interactive Geospatial Platform for Large-Scale Forest Imagery</a>
+        <div class="pub-meta">Prasai, S., et al. (2026) <span class="badge badge-accepted">Accepted &middot; IJCAI-ECAI 2026 Demo Track</span></div>
+      </div>
+      <div class="pub">
+        <a class="pub-title" href="https://arxiv.org/abs/2511.03878" target="_blank" rel="noopener">KnowThyself: An Agentic Assistant for LLM Interpretability</a>
+        <div class="pub-meta">Prasai, S., Du, M., Zhang, Y., &amp; Yang, F. (2025) &middot; arXiv:2511.03878 <span class="badge badge-accepted">Accepted &middot; AAAI 2026 Demo Track</span></div>
+      </div>
+      <div class="pub">
+        <a class="pub-title" href="https://aclanthology.org/2025.chipsal-1.14/" target="_blank" rel="noopener">Domain-adaptative Continual Learning for Low-resource Tasks: Evaluation on Nepali</a>
+        <div class="pub-meta">Duwal, S., Prasai, S., &amp; Manandhar, S. (2025), pp. 144–153 <span class="badge badge-published">Published &middot; CHiPSAL Workshop, COLING 2025</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="wrap">
+    <p class="section-label">education</p>
+    <h2 class="section-title">Education</h2>
+
+    <div class="edu-grid">
+      <div class="edu-item">
+        <div>
+          <span class="edu-school">Wake Forest University</span> &middot; <span class="edu-degree">M.S. Computer Science</span>
+        </div>
+        <div class="edu-time">Aug 2025 — May 2027</div>
+      </div>
+      <div class="edu-item">
+        <div>
+          <span class="edu-school">Tribhuvan University</span> &middot; <span class="edu-degree">B.S. Computer Science and Information Technology</span>
+        </div>
+        <div class="edu-time">2015 — 2019</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="wrap contact">
+    <p>Open to Software Engineer &amp; AI Engineer roles &mdash; reach out directly:</p>
+    <div class="contact-links">
+      <a class="btn btn-primary" href="mailto:suraj.prasai97@gmail.com">Email me</a>
+      <a class="btn btn-ghost" href="https://www.linkedin.com/in/suraj-prasai-a77092145/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn btn-ghost" href="https://github.com/spygaurad" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn btn-ghost" href="https://scholar.google.com/citations?user=rnN40xQAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+    </div>
+    <p class="copyright">&copy; 2026 Suraj Prasai</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
