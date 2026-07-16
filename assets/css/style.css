@@ -342,8 +342,9 @@ section + section { border-top: 1px solid var(--border); }
 .card-links { display: flex; gap: 14px; font-family: var(--mono); font-size: 12.5px; }
 
 .card-video-row { display: flex; gap: 10px; margin-top: 14px; }
+.card-video-row-center { justify-content: center; }
 .card-video { flex: 1; min-width: 0; }
-.card-video-single { max-width: 240px; }
+.card-video-single { max-width: 240px; text-align: center; }
 .card-video-label {
   font-family: var(--mono);
   font-size: 10.5px;
